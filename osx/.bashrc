@@ -33,9 +33,9 @@ PATH="$PATH:$HADOOP_HOME/bin"
 PATH="$PATH:$SCALA_HOME/bin"
 
 
-if [ -f ~/.bash_aliases ]; then
-. ~/.bash_aliases
-fi
+#if [ -f ~/.bash_aliases ]; then
+#. ~/.bash_aliases
+#fi
 
 #export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 setjdk() {
